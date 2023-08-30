@@ -30,14 +30,14 @@ hr{
 .balao h2{
     color: #fff;
     font-family: 'Lalezar', cursive;
-    font-size: 24px;
+    font-size: 1.8rem;
     filter: drop-shadow(0px 4px 1px rgba(0, 0, 0, 0.2));
     padding-left: 0.3rem;
 }
 
 .balao p{
     color: white;
-    font-size: 12px;
+    font-size: .9rem;
     font-family: 'Lato';
     padding-left: 0.3rem;
     padding-right: 1rem;
@@ -97,9 +97,6 @@ hr{
     margin-top: 5%;
     box-shadow: .2rem .2rem 2rem  #68686881;
     min-height: 200px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
 
  }
 
@@ -179,13 +176,6 @@ footer p{
     border: none;
 }
 
-
-@media (max-width:450px){
-
-    html{
-        font-size: 100%;
-    }
-}
 
 
 
