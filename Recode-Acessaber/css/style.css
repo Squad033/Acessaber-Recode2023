@@ -2,7 +2,6 @@
     --blue:#00D1FF;
     --blue2:#0085a3;
     --black:#44445F;
-    --margeml: 3%;
 }
 
 *{
@@ -98,27 +97,27 @@ hr{
     margin-top: 5%;
     box-shadow: .2rem .2rem 2rem  #68686881;
     min-height: 200px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 
  }
 
 .chamadas h2{
-    padding-top: 10%;
+    padding-top: 1.5rem;
     padding-left: 3%;
     font-family: 'Poppins';
     font-weight: bold;
     font-size: 1.4rem;
 }
 .chamadas p{
-    padding-left: var(--margeml);
+    padding-left: 3%;
     color: var(--blue2);
     font-size: .7rem;
 }
 .chamadas a{
-    padding-top: 5%;
-    padding-left: var(--margeml);
+    padding-top: 0.5rem;
+    padding-left: 3%;
     text-decoration: none;
     display: inline-block;
 
@@ -134,7 +133,50 @@ hr{
 footer p{
     font-family: 'Popins';
     color: var(--black);
-    margin: var(--margeml);
+    margin: 1.5rem;
+}
+.funcionamento h1{
+    font-size: 3rem;
+    color: #00D1FF;
+    font-weight: bold;
+    filter: drop-shadow(2px 3px 1px rgba(0,0,0,0.4));
+    margin-top: 0.3rem;
+}
+.funcionamento span{
+    color: var(--black);
+    margin-top: 0.3rem;
+}
+.funcionamento h2{
+    font-size: 1.5rem;
+    color: var(--black);
+    font-weight: bold;
+    filter: drop-shadow(2px 3px 1px rgba(0,0,0,0.4));
+    margin-top: 0.3rem;
+}
+.funcionamento p{
+    font-size: .9rem;
+    margin-top: 0.3rem;
+    
+}
+.funcionamento a{
+    text-decoration: none;
+    font-size: 1.2rem ;
+    padding: .2rem;
+    color: #00D1FF;
+    filter: drop-shadow(2px 1px 2px rgba(0,0,0,0.4));
+    margin-top: 0.3;
+    margin-bottom: 3rem;
+}
+.formulario{
+    background-color: #0085a3;
+}
+.formulario h2{
+    filter: drop-shadow(2px 3px 1px rgba(0,0,0,0.4));
+}
+#enviar{
+    background-color: #44445F;
+    color: #fff;
+    border: none;
 }
 
 
@@ -145,17 +187,6 @@ footer p{
     }
 }
 
-@media (min-width:450px){
 
-    html{
-        font-size: 100%;
-    }
-}
 
-@media (min-width:7680px){
-
-    html{
-        font-size: 75%;
-    }
-}
 
