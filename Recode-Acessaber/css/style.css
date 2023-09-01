@@ -97,7 +97,6 @@ hr{
     margin-top: 5%;
     box-shadow: .2rem .2rem 2rem  #68686881;
     min-height: 200px;
-
  }
 
 .chamadas h2{
@@ -174,6 +173,90 @@ footer p{
     background-color: #44445F;
     color: #fff;
     border: none;
+}
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sobre h2{
+    font-weight: 600;
+    color: var(--black);
+    font-size: 2.1rem;
+    filter: drop-shadow(2px 3px 1px rgba(0,0,0,0.4));
+ }
+.sobre p{
+    font-size: .7rem;
+    font-family: 'Poppins';
+    text-align: justify;
+    color: var(--blue2)
+ }
+ #sobre{
+    font-size: 6rem;
+    color: #00D1FF;
+    font-weight: bold;
+    filter: drop-shadow(2px 3px 1px rgba(0,0,0,0.4));
+ }
+.icons{
+    background-color: transparent;
+    margin-top: 5%;
+    min-height: 200px;
+    display: flex;
+ }
+.valores{
+    margin-top: 5%;
+    display: flex;
+}
+.valores img{
+    width: 30%;
+}
+.valoresImg{
+    border-radius: 100%;
+    box-shadow: .2rem .2rem 2rem  #68686881;
+}
+.contato input{
+    border-color: #00D1FF;
+    border-radius: 1.2rem;
+}
+.contato textarea{
+    border-color: #00D1FF;
+    border-radius: 1.2rem;
+    width: 100%;
+    outline-color: #00D1FF;
+    color: #44445F;
+}
+#FaleConosco{
+    padding: .2rem;
+    color: #00D1FF;
+    filter: drop-shadow(2px 1px 2px rgba(0,0,0,0.4));
+    margin-bottom: 3rem;
+}
+
+ @media (min-width:768px){
+
+    .sobre h2{
+        font-size: 250%;
+    }
+    .sobre p{
+        font-size: 110%;
+    }
+}
+@media (min-width:992px){
+
+    .chamadas h2{
+        font-size: 180%;
+    }
+    .chamadas p{
+        font-size: 80%;
+    }
+
+    .valores h2{
+        font-size: xx-large;
+    }
+    .valores p{
+        font-size: smaller;
+    }
 }
 
 
